@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="www.smktelkommlg.sch.id.myintentapp">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyIntentApp">
+        <activity android:name="www.smktelkommlg.sch.id.myintentapp.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="www.smktelkommlg.sch.id.myintentapp.MoveActivity" />
+        <activity android:name="www.smktelkommlg.sch.id.myintentapp.MoveWithDataActivity" />
+        <activity android:name="www.smktelkommlg.sch.id.myintentapp.MoveWithObjectActivity" />
+        <activity android:name="www.smktelkommlg.sch.id.myintentapp.MoveForResultActivity"/>
+    </application>
+
+</manifest>
